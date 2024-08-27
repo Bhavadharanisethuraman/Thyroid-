@@ -8,10 +8,10 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 
-model = tf.keras.models.load_model('deep_neural_network_model.keras')
+model = tf.keras.models.load_model('DL.keras')
 
 
-df = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/differentiated+thyroid+cancer+recurrence.zip')
+df = pd.read_csv('differentiated+thyroid+cancer+recurrence.zip')
 
 
 label_encoders = {}
